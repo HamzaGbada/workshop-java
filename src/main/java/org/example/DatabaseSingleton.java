@@ -13,7 +13,12 @@ public class DatabaseSingleton {
 
     public static DatabaseSingleton getInstance(String name, int creds){
         if (instance == null){
+
             instance = new DatabaseSingleton(name, creds);
+            System.out.println("Object with name "+ name + " and creds = "+creds+"is created");
+        }
+        else{
+            System.out.println("Objct déja créer");
         }
         return instance;
     }

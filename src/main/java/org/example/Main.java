@@ -26,6 +26,8 @@ public class Main {
 
         showArea(r);
         showArea(c);
+        DatabaseSingleton d = DatabaseSingleton.getInstance("postgres", 123456);
+        DatabaseSingleton g = DatabaseSingleton.getInstance("mysql", 654);
     }
 
     public static void showArea(Shape s){
