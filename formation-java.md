@@ -1,13 +1,3 @@
----
-_class: lead
-paginate: true
-backgroundColor: #fff
-#backgroundImage: url('https://marp.app/assets/hero-background.svg')
-auto-scaling: true
----
-
-[//]: # (![bg left]&#40;https://marp.app/assets/marp.svg&#41;)
-
 # Workshop on Java Development
 
 Hamza Gbada
