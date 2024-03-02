@@ -30,4 +30,8 @@ public class Student extends User{
 //        super.login();
         System.out.println("The student logged in");
     }
+    @Override
+    public String toString(){
+        return "The student "+this.getName()+" with email "+this.getEmail()+" studies "+this.getMajor()+" in the "+this.getYear()+"st years";
+    }
 }
